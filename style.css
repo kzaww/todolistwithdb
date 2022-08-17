@@ -1,0 +1,88 @@
+header {
+    width: 60%;
+    margin: 30px auto;
+    text-align: center;
+    color: black;
+    background-color: rgb(107, 194, 107, 0.4);
+    border-radius: 12px;
+    border: solid 1px;
+    box-shadow: 0 0 4px 0;
+}
+
+form {
+    width: 60%;
+    margin: 30px auto;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(107, 194, 107, 0.4);
+    border: solid 1px;
+}
+
+form p {
+    color: red;
+    margin: 0;
+}
+
+form input {
+    width: 73%;
+    height: 15px;
+    padding: 10px;
+    border: none;
+}
+
+.add {
+    height: 39px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+table {
+    width: 60%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: solid 1px;
+}
+
+th,
+td {
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+
+tr:hover {
+    background-color: rgb(194, 194, 194);
+}
+
+.id {
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+}
+
+.work {
+    text-align: center;
+}
+
+.done {
+    background-color: rgb(153, 255, 0);
+}
+
+.del {
+    background-color: red;
+}
+
+.done,
+.del {
+    color: black;
+    padding: 1px 6px;
+    border-radius: 3px;
+    text-decoration: none;
+}
